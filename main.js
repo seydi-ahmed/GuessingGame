@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const secretNumber = Math.floor(Math.random() * 10) + 1;
+    const secretNumber = Math.ceil(Math.random() * 10);
     let attempts = 0;
 
     const guessInput = document.getElementById("guessInput");
